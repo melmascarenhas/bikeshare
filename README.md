@@ -19,6 +19,11 @@ Descriptive statistics that will run for the parameters selected are:
 
 Additional details provided are the users details like gender and birth year depending on the city selected. 
 
+Towards the end of the script, users will have the ability to preview the raw data's first 5 lines and extend the data view if desired. 
+
+### Use Cases
+Use case for the data is to highlight trends within the 3 big cities mentioned earlier to understand trends in bikeshare usage. Trends can be used to help increase bike inventory in area of high usage, understand highly visited areas or pick up locations, and help increase usage during time periods that potentially have low usage.
+
 ### Files used
 chicago.csv
 new_york_city.csv
