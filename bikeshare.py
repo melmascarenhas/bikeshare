@@ -47,7 +47,7 @@ def get_filters():
     while True:
         day = input("What month would you like to look at? Please select a day of the week from monday through sunday. If you want to look at all days of the week, please input 'all'\n").lower()
         if day in days:
-            print("Great! Let's continue.")
+            print("Great! Processing Inputs.")
             break
         else:
             print("Sorry, try again. Please input a day from monday through sunday or all.\n")
@@ -210,7 +210,7 @@ def user_stats(df):
         if view_data in ('yes'):
             print(df.iloc[start_loc:start_loc+5])
             start_loc += 5
-            more_data = input("Would you like to see the next 5 lines? Yes or No: ").lower()
+            more_data = input("Would you like to see the next 5 lines of data? Yes or No: ").lower()
             #ask user if they want additional data with opportunity to break out of loop
             if more_data not in ('yes'):
                 break
