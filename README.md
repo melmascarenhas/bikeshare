@@ -1,14 +1,33 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Created February 13, 2022
-Include the date you created this project and README file.
 
 ### Description
-Describe what your project is about and what it does
+This project uses python script to explore data related to bike share systems for three major cities in the United States — Chicago, New York City, and Washington. The core function of the code include: 
+1. importing the data; 
+2. prompting the user for requests of specific cities data sets and the time periods (months and days of week); 
+3. provide descriptive statistics.
+
+### Calculations and Results 
+Descriptive statistics that will run for the parameters selected are:
+1. Most Common Month when travel occurred
+2. Most Common Day when travel occurred
+3. Most Common Hour when travel occured
+4. Most Common Start Station
+5. Most Common End Station
+6. Most Common Station Trip Combination
+7. Total Travel Time (in Seconds and in Hours)
+8. Average Travel Time (in Seconds and in Minutes)
+
+Additional details provided are the users details like gender and birth year depending on the city selected. 
+
+Towards the end of the script, users will have the ability to preview the raw data's first 5 lines and extend the data view if desired. 
+
+### Use Cases
+Use case for the data is to highlight trends within the 3 big cities mentioned earlier to understand trends in bikeshare usage. Trends can be used to help increase bike inventory in area of high usage, understand highly visited areas or pick up locations, and help increase usage during time periods that potentially have low usage.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
 
